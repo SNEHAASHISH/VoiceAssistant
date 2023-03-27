@@ -1,4 +1,3 @@
-#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
 import pyaudio
 import wave
 import speech_recognition as sr
