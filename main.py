@@ -85,13 +85,10 @@ context = visual_chatgpt(text, max_length=50, num_return_sequences=1)
 if task == "tweet":
     # Code to open Chrome and navigate to Twitter
     # Populate the tweet with the text provided by the user
-    username = "sneh_aashish"
-    password = "Maima123"
+    username = "ENTER_YOUR_USERNAME"
+    password = "ENTER_YOUR_PASSWORD"
 
     tweet = text.split("Open Chrome and make a tweet about")[1]
-    
-    username = 'sneh_aashish'
-    password = '123Maima$'
 
     driver = webdriver.Chrome('chromedriver')
     driver.get('https://twitter.com/i/flow/login')
